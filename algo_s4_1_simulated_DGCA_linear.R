@@ -263,7 +263,7 @@ labels = c("cond_a", "cond_b")
 colnames(design_mat) = labels
 npairs = (nrow(sim_data_merge)^2)/2 - nrow(sim_data_merge)
 
-for(corrType in c("pearson","spearman","bicor","MI"){
+for(corrType in c("pearson","spearman","bicor","MI")){
 	print(corrType)
 	ddcor_start = Sys.time()
 
